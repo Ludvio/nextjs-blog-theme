@@ -3,7 +3,7 @@
   publish = ".next"
 
   [[redirects]] 
-  from = "deal" 
+  from = "/deal" 
   to = "https://ludvio.systeme.io/e4f32e55" 
   status = 301
 
