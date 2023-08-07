@@ -2,6 +2,11 @@
   command = "npm run build"
   publish = ".next"
 
+  [[redirects]] 
+  from = "deal" 
+  to = "https://ludvio.systeme.io/e4f32e55" 
+  status = 301
+
   [build.environment]
     # cache Cypress binary in local "node_modules" folder
     # so Netlify caches it
